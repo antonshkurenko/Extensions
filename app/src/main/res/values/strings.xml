@@ -1,5 +1,5 @@
 <resources>
-  <string name="app_name">DecoratorTest</string>
+  <string name="app_name">Extensions</string>
   <string name="title_activity_sub_with_toolbar">SubWithToolbarActivity</string>
   <string name="title_activity_sub_full_screen">SubFullScreenActivity</string>
   <string name="title_activity_full_screen_with_toolbar">FullScreenWithToolbarActivity</string>

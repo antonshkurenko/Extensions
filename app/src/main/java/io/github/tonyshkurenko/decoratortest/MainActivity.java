@@ -9,10 +9,10 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-import io.github.tonyshkurenko.decorators.activities.DecoratedAppCompatActivity;
-import io.github.tonyshkurenko.decoratortest.decorators.SimpleBroadcastReceiverDecorator;
-import io.github.tonyshkurenko.decoratortest.decorators.SingletonForegroundActivityDecorator;
-import io.github.tonyshkurenko.decoratortest.decorators.ToolbarDecorator;
+import io.github.tonyshkurenko.decoratortest.decorators.SimpleBroadcastReceiverExtension;
+import io.github.tonyshkurenko.decoratortest.decorators.ToolbarExtension;
+import io.github.tonyshkurenko.extensions.activities.DecoratedAppCompatActivity;
+import io.github.tonyshkurenko.decoratortest.decorators.SingletonForegroundActivityExtension;
 
 public class MainActivity extends DecoratedAppCompatActivity
     implements AdapterView.OnItemClickListener {
@@ -26,9 +26,9 @@ public class MainActivity extends DecoratedAppCompatActivity
   private static final int DELAY_MILLIS = 5000;
 
   {
-    mActivityCompositeDecorator.addDecorator(new ToolbarDecorator(this, R.id.toolbar));
-    mActivityCompositeDecorator.addDecorator(new SimpleBroadcastReceiverDecorator(this));
-    mActivityCompositeDecorator.addDecorator(SingletonForegroundActivityDecorator.getInstance());
+    mActivityCompositeExtension.addExtension(new ToolbarExtension(this, R.id.toolbar));
+    mActivityCompositeExtension.addExtension(new SimpleBroadcastReceiverExtension(this));
+    mActivityCompositeExtension.addExtension(SingletonForegroundActivityExtension.getInstance());
   }
 
   @Override protected void onCreate(Bundle savedInstanceState) {
