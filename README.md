@@ -22,5 +22,5 @@ I created this repo to ask you:
 
 ## Questions
 
-1) Does it make sence?  
+1) Does it make sense?  
 2) Maybe you know better or existing solution to do this?
