@@ -18,6 +18,10 @@ Here I name it "Extension".
 
 The main idea is to extract repeatable code to the other files and add them as simple modules.
 
+[decorators](https://github.com/tonyshkurenko/Extensions/tree/master/decorators/src/main/java/io/github/tonyshkurenko/extensions) folder contains something like library with basic classes.
+
+[app](https://github.com/tonyshkurenko/Extensions/tree/master/app/src/main/java/io/github/tonyshkurenko/decoratortest) folder contains example
+
 I created this repo to ask you:
 
 ## Questions
