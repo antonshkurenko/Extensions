@@ -16,7 +16,7 @@ I thought about *Decorator* pattern, but for real it's *Strategy*.
 
 Here I name it "Extension".
 
-The main idea is to extract repeatable code to the other files and add them as simple modules.
+The main idea is to extract repeatable code to the other files and add them as simple modules. Like [this](https://github.com/eyeem/decorator) but much, much, much simplier.
 
 [decorators](https://github.com/tonyshkurenko/Extensions/tree/master/decorators/src/main/java/io/github/tonyshkurenko/extensions) folder contains something like library with basic classes.
 
